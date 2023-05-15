@@ -2,24 +2,35 @@
 <head>
   <style>
 nav {
-  background: pink; 
+  background: ForestGreen; 
 }
 
 div.parent {
   display: grid; 
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 85%;
   min-height: 100vh; 
-  grid-gap: 20px;
+  grid-gap: 9px;
 }
 div.child {
-  background: gold; 
+  background: #FF6347; 
 }.box {
-  width: 100px;
-  height: 100px;
-  background: yellow;
-  border: 5px solid green;
-  padding: 15px;
-  margin: 15px;
+  width: 70px;
+  height: 40px;
+  background: #87CEEB;
+  padding: 8px;
+  margin: 9px;
+}
+p{
+  background: blue;
+}
+.paragraph_2{
+  background:red;
+}
+#paragraph_3{
+  background:green;
+}
+p:nth-child(2) {
+  background: purple;
 }
   </style>
 </head>
@@ -27,7 +38,10 @@ div.child {
   <div class= "parent">
 <nav>Hello</nav>
 <div class="child">
-  World
+  <p>this has been selected by CSS using the p tag name </p>
+  <p class="paragraph_2">
+    this has been selected using a <strong>class</strong> selector</p>
+    <p id="paragraph_3"> this paragraph has been selected using</p>
 <div class="box"> box</div>
   </div>
   </body>
