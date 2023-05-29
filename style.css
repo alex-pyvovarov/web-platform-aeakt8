@@ -30,5 +30,23 @@ p:nth-child(2) strong{
   background: purple;
 }
 a{
+  background:none;
+}
+a{
+  text-decoration: none;
+}
+nav li {
+list-style-type: none;
+}
+nav ul {
+padding: 0;
+}
+.block-div {
   background:#bfe5f5;
+  display: block;
+  border-width:2px ;
+  border-color:rgb(90, 2, 2) ;
+  border-style:solid ;
+  padding: 1rem;
+  margin: 2rem;
 }
