@@ -1,0 +1,34 @@
+nav {
+  background: ForestGreen; 
+}
+
+div.parent {
+  display: grid; 
+  grid-template-columns: 15% 85%;
+  min-height: 100vh; 
+  grid-gap: 9px;
+}
+div.child {
+  background: #FF6347; 
+}.box {
+  width: 70px;
+  height: 40px;
+  background: #87CEEB;
+  padding: 8px;
+  margin: 9px;
+}
+p{
+  background: blue;
+}
+.paragraph_2{
+  background:red;
+}
+#paragraph_3{
+  background:green;
+}
+p:nth-child(2) strong{
+  background: purple;
+}
+a{
+  background:white;
+}
