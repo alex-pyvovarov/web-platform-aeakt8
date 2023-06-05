@@ -45,7 +45,7 @@ padding: 0;
   background:#bfe5f5;
   display: block;
   border-width:2px ;
-  border-color:rgb(90, 2, 2) ;
+  border-color:rgb(67, 119, 89) ;
   border-style:solid ;
   padding: 1rem;
   margin: 2rem;
@@ -57,4 +57,10 @@ li a {
   display: inline;
   background-color:purple;
   color:violet;
+}
+#spacing-lesson {
+  width:179px;
+  height:15px;
+  margin:25px;
+  padding:10px;
 }
