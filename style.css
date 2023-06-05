@@ -50,3 +50,6 @@ padding: 0;
   padding: 1rem;
   margin: 2rem;
 }
+li a {
+  color: rgb(178, 223, 239);
+}
