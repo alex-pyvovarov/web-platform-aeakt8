@@ -4,7 +4,7 @@ nav {
 
 div.parent {
   display: grid; 
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 11% 89%;
   min-height: 100vh; 
   grid-gap: 9px;
 }
@@ -61,6 +61,7 @@ li a {
 #spacing-lesson {
   width:179px;
   height:15px;
-  margin:25px;
   padding:10px;
+  margin:auto;
+  margin-top:25px;
 }
