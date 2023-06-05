@@ -53,3 +53,8 @@ padding: 0;
 li a {
   color: rgb(178, 223, 239);
 }
+.inline-div {
+  display: inline;
+  background-color:purple;
+  color:violet;
+}
