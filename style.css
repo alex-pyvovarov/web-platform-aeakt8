@@ -1,5 +1,6 @@
 nav {
   background: rgb(46, 43, 43); 
+
 }
 
 div.parent {
@@ -46,10 +47,13 @@ padding: 0;
   background:#bfe5f5;
   display: block;
   border-width:2px ;
-  border-color:rgb(67, 119, 89) ;
+  border-color:rgb(29, 3, 3) ;
   border-style:solid ;
   padding: 1rem;
   margin: 2rem;
+  border-radius: 17px;
+  text-align: center;
+  box-shadow:10px 10px 5px rgb(0,0,0,9);
 }
 li a {
   color: rgb(178, 223, 239);
@@ -65,8 +69,14 @@ li a {
   padding:10px;
   margin:auto;
   margin-top:25px;
+  border-radius: 17px;
+  text-align: center;
+  box-shadow:10px 10px 5px rgb(0,0,0,9);
 }
 .bi {
   margin:5px;
   margin-left:8px;
+}
+html {
+background:#bfe5f5 ;
 }
