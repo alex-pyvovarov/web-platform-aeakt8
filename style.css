@@ -80,3 +80,18 @@ li a {
 html {
 background:#bfe5f5 ;
 }
+.h11 {
+  margin-left:10px;
+  color:#bfe5f5;
+}
+.button1{
+  margin-left:10px;
+  Background:#bfe5f5;
+  color: #1d1c1c; 
+  font-size:18px;
+  border-radius:10px;
+  border-color:#1d1c1c;
+}
+.button1:hover {
+  background:;
+}

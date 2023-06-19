@@ -1,6 +1,7 @@
 function doSomethingCool(){
-  var x ='Warning (but in a var)';
-  alert (x);
-
-  //alert ('Warning!');
+//var x ='Warning (but in a var);
+//alert ('Warning!');
+  var x = Math.random() * 10;
+  var y = Math.floor(x);
+  alert(y);
 }
