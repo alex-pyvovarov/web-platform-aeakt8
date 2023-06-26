@@ -1,3 +1,4 @@
+
 nav {
   background: rgb(46, 43, 43); 
 
@@ -104,4 +105,7 @@ background:#bfe5f5 ;
 .book3 {
   margin-left:10px;
   color:#bfe5f5;
+}
+html {
+  font-family:cursive;
 }
